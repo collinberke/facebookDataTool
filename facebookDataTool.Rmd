@@ -1,0 +1,17 @@
+---
+title: "Facebook Data Tool"
+author: "Collin K. Berke, Ph.D."
+date: "July 19, 2018"
+output:
+  html_document:
+    df_print: paged
+---
+
+The purpose of this program is to import and organize Facebook data for analysis. 
+
+```{r Data import, echo = FALSE}
+
+data <- data.frame(mtcars)
+
+```
+
