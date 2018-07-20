@@ -9,9 +9,24 @@ output:
 
 The purpose of this program is to import and organize Facebook data for analysis. 
 
+```{r Libraries, echo = FALSE}
+
+library(pacman)
+
+p_load(ggplot2, readxl, tidyverse)
+
+```
+
+
 ```{r Data import, echo = FALSE}
 
 data <- data.frame(mtcars)
+
+names(data)
+
+ggplot(data, aes(x = qsec, y = mpg)) +
+  geom_point()
+
 
 ```
 
